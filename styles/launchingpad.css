@@ -140,4 +140,93 @@ img{
     font-style: normal;
    
 
+} 
+
+.user-head{
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    gap: 70px;
+    margin: 100px 65px;
+  
+} 
+
+
+.cards{
+
+    width: 340px ;
+    height: 230px;
+    background-color:#f3f4f6;
+    padding: 24px; 
+    border-radius: 10px;
+
+}
+
+
+
+.card-1{
+    display: flex;
+    /* background-color: aqua;
+    width: 400px;
+    height: 400px; */
+} 
+
+
+
+.card-1 img{
+    width: 20px;
+    height: 20px;
+} 
+
+
+.review-part{
+    display: flex;
+     align-items: center;
+     gap: 20px;
+     line-height: 10px;
+   
+} 
+
+.review-part img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+   
+} 
+
+.card-title{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.card-text{
+    font-size: 16px;
+    max-width: 300px;
+  
+} 
+.review-name{
+    font-size: 16px;
+} 
+
+.review-date{
+    font-size: 16px;
+    color:#aaaaaa;
+} 
+
+
+
+.footer-section{
+
+    text-align: center;
+} 
+
+.list-name{
+    display: flex;
+    gap: 50px;
+   margin-left: 560px;
+
 }
