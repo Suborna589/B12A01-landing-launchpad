@@ -178,7 +178,7 @@ img{
 .card-1 img{
     width: 20px;
     height: 20px;
-    gap: 5px;
+    padding-left: 10px;
 } 
 
 
