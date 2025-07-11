@@ -155,7 +155,7 @@ img{
 
 .cards{
 
-    width: 360px ;
+    width: 380px ;
     height: 230px;
     background-color:aliceblue;
     padding: 24px; 
@@ -178,6 +178,7 @@ img{
 .card-1 img{
     width: 20px;
     height: 20px;
+    gap: 5px;
 } 
 
 
