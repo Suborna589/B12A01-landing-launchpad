@@ -17,7 +17,7 @@ nav li{
 
 } 
 .btn-primary{
-    background-color: #00ff7f;
+    background-color: #59029b;
     color: #ffffff; 
     padding: 15px 25px; 
     font-size: 18px; 
@@ -65,6 +65,79 @@ nav li{
     font-size: 65px;
     font-weight: 700;
     max-width: 900px;
+} 
+
+
+.action{
+    display: flex; 
+    margin: 100px 65px;
+    gap: 460px ;
+
+      
+} 
+
+img{
+    width:403px;
+    height: 328px;
+    border-radius: 25px;
+   
+    
+    
+} 
+
+
+.title{
+    font-size: 42px;
+    font-weight: 700;
+} 
+.sub-title{
+    font-weight: Regular;
+    font-size: 24px;
+    color:	#aaaaaa;
+   max-width: 420px;
+    
+}
+ 
+
+.productive-user{ 
+    width: 1300px;
+    height: 330px;
+    background-color:#adc7ec;
+    border-radius: 24px;
+    margin: 100px 65px;
+    text-align: center;
+    line-height: 10px;
+
+
+} 
+
+.heading{
+    font-size: 38px;
+    font-weight: 700;
+    padding-top: 65px;
+  
+
 }
 
+.data{
+    display: flex;
+    gap: 160px;
+    padding-left:260px;
+    line-height: 0px;
+   
 
+  
+} 
+.data-amount{
+    font-size: 80px;
+    font-weight: 700;
+    color:#59029b;
+
+}
+
+.text{
+    font-size: 20px;
+    font-style: normal;
+   
+
+}
