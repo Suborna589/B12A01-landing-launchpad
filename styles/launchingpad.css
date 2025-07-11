@@ -16,16 +16,7 @@ nav li{
     list-style: none;
 
 } 
-.btn-primary{
-    background-color: #59029b;
-    color: #ffffff; 
-    padding: 15px 25px; 
-    font-size: 18px; 
-    border: none; 
-    border-radius: 10px;
 
-
-} 
 
 .container{ 
     position: relative;
@@ -53,7 +44,7 @@ nav li{
     display: flex;
     align-items: center;
     margin: 0px 65px; 
-    gap:990px; 
+    gap:950px; 
   
 }  
 
@@ -224,15 +215,15 @@ img{
     color:#aaaaaa;
 } 
 
-.btn{
+.btn-primary{
     position: relative;
     padding: 20px 35px;
     align-items: center;
     border: 1px solid black;
-    background-color:orange;
-    color: black;
+    background-color:#59029b;
+    color: white;
     cursor: pointer;
-    margin-left: 680px ;
+
     border-radius: 10px;
     transition: color  0.8s  linear;
     overflow: hidden;
@@ -241,7 +232,7 @@ img{
 
 } 
 
-.btn::before{
+.btn-primary::before{
     position: absolute;
     top: 0;
     left: 0;
@@ -254,13 +245,20 @@ img{
 
 } 
 
-.btn:hover{
-    background-color: #59029b;
+.btn-primary:hover{
+    background-color: orange;
 
 }  
 
-.btn:hover::before{
+.btn-primary:hover::before{
     transform: translateX(30);
+} 
+
+
+.btn-primary span{
+   padding-left: 220px; 
+  
+  
 }
 
 
